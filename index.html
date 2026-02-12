@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Michael’s Kors — Style Notes, Design Insights & Editorial</title>
+  <meta name="description" content="Michael’s Kors is an editorial-style page featuring design notes, fashion observations, and curated references presented in a clean modern layout." />
+  <link rel="canonical" href="https://michaels-kors.co.uk/" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#f7f7f9;
+      --ink:#111827;
+      --muted:#6b7280;
+      --line:#e5e7eb;
+      --card:#ffffff;
+      --accent:#111827;
+      --shadow:0 18px 40px rgba(0,0,0,.08);
+      --r:16px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      color:var(--ink);
+      background:var(--bg);
+    }
+    a{color:inherit}
+    .container{max-width:1040px;margin:0 auto;padding:0 18px}
+
+    /* Header */
+    header{
+      padding:42px 0 28px;
+      border-bottom:1px solid var(--line);
+    }
+    .brand{
+      display:flex;
+      align-items:flex-end;
+      gap:14px;
+    }
+    .logo{
+      width:44px;height:44px;
+      border-radius:12px;
+      background:#111827;
+    }
+    h1{
+      margin:0;
+      font-family:"Playfair Display",serif;
+      font-size:clamp(28px,3.2vw,46px);
+      line-height:1.05;
+    }
+    .subtitle{
+      margin:12px 0 0;
+      color:var(--muted);
+      max-width:70ch;
+      line-height:1.7;
+      font-size:15px;
+    }
+
+    /* Nav */
+    nav{
+      margin-top:18px;
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+    }
+    nav a{
+      text-decoration:none;
+      font-weight:800;
+      font-size:13px;
+      padding:8px 12px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      background:#fff;
+    }
+
+    /* Sections */
+    main{padding:28px 0 40px}
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:var(--r);
+      box-shadow:var(--shadow);
+    }
+    .section{padding:20px}
+    @media(min-width:768px){.section{padding:26px}}
+
+    h2{
+      margin:0 0 10px;
+      font-family:"Playfair Display",serif;
+      font-size:clamp(20px,2.2vw,30px);
+    }
+    p{
+      margin:0 0 14px;
+      color:#374151;
+      line-height:1.8;
+      font-size:15px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:16px;
+    }
+    @media(min-width:900px){.grid{grid-template-columns:1fr 1fr}}
+
+    blockquote{
+      margin:18px 0;
+      padding:16px 18px;
+      border-left:4px solid #111827;
+      background:#f9fafb;
+      font-weight:700;
+      color:#111827;
+    }
+
+    /* Links */
+    .links{
+      list-style:none;
+      padding:0;
+      margin:12px 0 0;
+      display:grid;
+      grid-template-columns:1fr;
+      gap:10px;
+    }
+    @media(min-width:640px){.links{grid-template-columns:1fr 1fr}}
+    @media(min-width:900px){.links{grid-template-columns:1fr 1fr 1fr}}
+
+    .links li a{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:10px 12px;
+      text-decoration:none;
+      font-weight:800;
+      font-size:14px;
+      border:1px solid var(--line);
+      border-radius:12px;
+      background:#fff;
+    }
+    .links li a:after{
+      content:"↗";
+      font-weight:900;
+      color:#9ca3af;
+    }
+
+    footer{
+      border-top:1px solid var(--line);
+      padding:22px 0;
+      text-align:center;
+      font-size:12px;
+      color:#6b7280;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <div class="brand">
+      <div class="logo"></div>
+      <h1>Michael’s Kors</h1>
+    </div>
+    <p class="subtitle">
+      A quiet editorial space for observing modern style, material choices,
+      and the way design communicates identity through simplicity.
+    </p>
+
+    <nav>
+      <a href="#article">Article</a>
+      <a href="#references">References</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <section id="article" class="card section">
+    <h2>Design Is More Than Appearance</h2>
+
+    <div class="grid">
+      <div class="card section" style="box-shadow:none">
+        <h2 style="font-size:18px">1) Proportion Over Decoration</h2>
+        <p>
+          Good design rarely depends on excess detail. Balance, spacing, and proportion
+          often communicate quality more effectively than ornamentation.
+        </p>
+      </div>
+
+      <div class="card section" style="box-shadow:none">
+        <h2 style="font-size:18px">2) Materials Tell a Story</h2>
+        <p>
+          Texture, weight, and finish affect how an object feels in daily use.
+          Thoughtful material selection builds trust without explanation.
+        </p>
+      </div>
+    </div>
+
+    <div class="grid" style="margin-top:14px">
+      <div class="card section" style="box-shadow:none">
+        <h2 style="font-size:18px">3) Consistency Builds Identity</h2>
+        <p>
+          A clear visual language repeated over time becomes recognisable.
+          Consistency is not limitation—it is focus.
+        </p>
+      </div>
+
+      <div class="card section" style="box-shadow:none">
+        <h2 style="font-size:18px">4) Less Noise, More Meaning</h2>
+        <p>
+          Removing distraction helps the core idea surface.
+          Strong brands often speak quietly but confidently.
+        </p>
+      </div>
+    </div>
+
+    <blockquote>
+      Design succeeds when it feels intentional without demanding attention.
+    </blockquote>
+  </section>
+
+  <section id="references" class="card section" style="margin-top:18px">
+    <h2>References</h2>
+    <p>External reference links.</p>
+
+    <ul class="links">
+      <li><a href="https://datahklotto.us/" target="_blank" rel="noopener">Data HK Lotto</a></li>
+      <li><a href="http://178.128.52.7/" target="_blank" rel="noopener">Data SDY Lotto</a></li>
+      <li><a href="https://pafiairseruk.org/" target="_blank" rel="noopener">Data HK</a></li>
+      <li><a href="http://178.128.89.94/" target="_blank" rel="noopener">Data SGP</a></li>
+      <li><a href="https://pafitanglad.org/" target="_blank" rel="noopener">Data SDY</a></li>
+      <li><a href="https://lamarsalaplayadegandia.com/" target="_blank" rel="noopener">Data HK</a></li>
+      <li><a href="http://159.223.35.146/" target="_blank" rel="noopener">Data SDY Lotto</a></li>
+      <li><a href="https://wholesalejerseys4sale.com/" target="_blank" rel="noopener">Prediksi Keluaran</a></li>
+      <li><a href="https://pafibenermeriahkabupaten.org/" target="_blank" rel="noopener">Prediksi Jitu</a></li>
+      <li><a href="http://178.128.116.128/" target="_blank" rel="noopener">Prediksi SDY</a></li>
+      <li><a href="https://prediksihkpools.net/" target="_blank" rel="noopener">Prediksi HK</a></li>
+      <li><a href="http://178.128.215.158/" target="_blank" rel="noopener">Angkanet</a></li>
+      <li><a href="http://178.128.21.45/" target="_blank" rel="noopener">Angkanet Result</a></li>
+      <li><a href="https://pafipcgunungkidulkab.org/" target="_blank" rel="noopener">Data HK 6D</a></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  © 2026 michaels-kors.co.uk — Editorial & Notes
+</footer>
+
+</body>
+</html>
